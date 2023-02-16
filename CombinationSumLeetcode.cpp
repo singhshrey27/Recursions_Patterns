@@ -2,6 +2,7 @@
 using namespace std;
 //Leetcode combinationSum problem : eg arr[]={2,3,6,7};  target =7
 //use a element as many times you can => ans=[[2,2,3],[7]]
+//here the repetition of an element is allowed 
 
 /* Time : O(2^n)*k    since every element has two choices hence 2^n and, where k is the time taken to store in another vector when the condition is hitted here
 */
